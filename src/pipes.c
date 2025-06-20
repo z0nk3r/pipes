@@ -483,8 +483,8 @@ main (int argc, char **argv)
             prev = curr;
             time(&t_end);
 
-            usleep(30000 - (t_end - t_start)); // sleep(0.03) / 30fps
-            // usleep(60000 - (t_end - t_start)); // sleep(0.06) / 15fps
+            // usleep(30000 - (t_end - t_start)); // sleep(0.03) / 30fps
+            usleep(60000 - (t_end - t_start)); // sleep(0.06) / 15fps
             // usleep(90000 - (t_end - t_start)); // sleep(0.09) / ~7fps
         }
 

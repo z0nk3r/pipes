@@ -1,6 +1,9 @@
 # pipes
 
 2D Pipes in the Terminal just like ye olden Windows Screensavers!
+<div align="center">
+  <img src="img/pipes.png" alt="Just like Windows 95!">
+</div>
 
 ## Setup
 The following prerequisites are required:

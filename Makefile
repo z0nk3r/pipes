@@ -19,7 +19,6 @@ OBJS := $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
 STANDARD := -std=c99
 FEATURES := -D_DEFAULT_SOURCE
 # FEATURES := -D_POSIX_C_SOURCE=200809L
-CFLAGS := -Wall -Werror -Wno-scalar-storage-order
 # CFLAGS := -Wall -Wextra -Wpedantic -Wno-scalar-storage-order
 # CFLAGS += -Wwrite-strings -Wvla -Wfloat-equal -Waggregate-return
 CFLAGS += $(STANDARD) $(FEATURES)
